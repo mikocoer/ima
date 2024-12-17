@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINBUZZ - Influencer Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo" id="logo">INFINBUZZ</div>
+
+        <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1>Grow Your Brand with INFINBUZZ</h1>
+        <p>Connecting you with the best influencers to maximize your reach and engagement.</p>
+        <button onclick="scrollToSection('contact')">Get Started</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>INFINBUZZ is an influencer marketing agency dedicated to transforming brands into industry leaders. We connect you with top influencers who bring real engagement and results.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Influencer Partnerships</h3>
+            <p>Collaborate with influencers across different niches and platforms.</p>
+        </div>
+        <div class="service">
+            <h3>Content Creation</h3>
+            <p>High-quality content tailored to your brand's voice and message.</p>
+        </div>
+        <div class="service">
+            <h3>Social Media Management</h3>
+            <p>End-to-end social media strategies for better engagement.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2>Our Portfolio</h2>
+        <p>Check out some of the successful collaborations we've had with top influencers.</p>
+        <div class="portfolio-item">
+            <img src="https://source.unsplash.com/600x400/?fashion" alt="Portfolio Image 1">
+        </div>
+        <div class="portfolio-item">
+            <img src="https://source.unsplash.com/600x400/?technology" alt="Portfolio Image 2">
+        </div>
+        <div class="portfolio-item">
+            <img src="https://source.unsplash.com/600x400/?marketing" alt="Portfolio Image 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" name="name" required>
+            <input type="email" placeholder="Your Email" name="email" required>
+            <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 INFINBUZZ. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
